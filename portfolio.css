@@ -62,7 +62,7 @@ text-align: center;
 .logo{
     float: none;
         display: block;
-        font-size: ;
+        
         padding: 6PX;
 }
 
@@ -85,7 +85,7 @@ text-align: center;
     
     row-gap:1em;
     column-gap: 4em;
-    
+    margin: 0%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -105,6 +105,7 @@ text-align: center;
     .imgg{
         border-radius: 50%;
        width: 100%;
+       border:4px #340101;
        
     }
 
@@ -167,6 +168,95 @@ text-align: center;
         width: 6%;
     }
     
+.bub1{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em; 
+    opacity: 30%;
+position:absolute;
+margin-left: 10em;
+z-index: -2;
+animation: anii ease-in 6s infinite forwards alternate;
 
+}
+
+.bub2{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em; 
+    opacity: 30%;
+position:absolute;
+margin-left: 10em;
+z-index: -2;
+animation: anii ease-in 8s infinite forwards alternate;
+
+}
+.bub3{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 12em;
+    height: 12em; 
+    opacity: 30%;
+position:absolute;
+margin-left: 10em;
+z-index: -2;
+animation: anii ease-in 10s infinite forwards alternate;
+
+}
+
+.bub4{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em; 
+    opacity: 30%;
+position:absolute;
+margin-left: 10em;
+z-index: -2;
+animation: anii ease-in 5s infinite forwards alternate;
+
+}
+.bub5{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em; 
+    opacity: 30%;
+position:absolute;
+margin-left: 10em;
+z-index: -2;
+animation: anii ease-in 12s infinite forwards alternate;
+
+}
+.bub6{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em; 
+    opacity: 30%;
+position:absolute;
+
+z-index: -2;
+animation: anii ease-in 4s infinite forwards alternate;
+
+}
+
+@keyframes anii {
+     0%{
+        transform: translatex(0%);
+     }
+
+30% {
+    transform: translatey(100%);
+}
+60%{
+    transform: translateY(100%);
+}
+
+100%{transform: translateX(100%);}
+
+   } 
 
     
