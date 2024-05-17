@@ -11,6 +11,7 @@ body{
     background-color: #340101;
     overflow: auto;
     position: fixed;
+    
 }
 
 
@@ -59,6 +60,7 @@ text-align: center;
         }
 
         
+        
 .logo{
     float: none;
         display: block;
@@ -85,12 +87,13 @@ text-align: center;
     
     row-gap:1em;
     column-gap: 4em;
-    margin: 0%;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 1em;
-    padding-top: 5em;
+    padding-top: 9em;
+  
     }
     
     .info{
@@ -258,5 +261,39 @@ animation: anii ease-in 4s infinite forwards alternate;
 100%{transform: translateX(100%);}
 
    } 
+   .sk{
+    display: flex ;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+   }
 
-    
+   .ski{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .card{
+    background-color: #090D22;
+    color: aliceblue;
+    width:16rem; 
+    border-radius: 20px; 
+   border-color: #588df8;
+   
+   }
+   .card-title{
+    font-size: 2em;
+    text-align: center;
+   }
+   .html{
+   padding: 2em;
+   height: 16em;
+   }
+   .skkk{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1em;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+   }
