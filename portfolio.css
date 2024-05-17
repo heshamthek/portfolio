@@ -6,7 +6,7 @@ body{
 }
 
 
-.navbar {
+.navbarr {
     width: 100vw;
     background-color: #340101;
     overflow: auto;
@@ -14,7 +14,7 @@ body{
 }
 
 
-.navbar a {
+.navbarr a {
     float: left;
     text-align: center;
     padding: 12px;
@@ -27,12 +27,12 @@ body{
 
 .navbar a:hover {
    
-    background: linear-gradient(90deg, rgba(6,22,107,1) 17%, rgba(52,1,1,1) 50%, rgba(6,22,107,1) 100%);  
+    background: linear-gradient(90deg, rgb(107, 6, 97) 17%, rgb(52, 1, 44) 50%, rgba(6,22,107,1) 100%);  
      transform: translateY(-2px);
 }
 
 
-.active {
+.ss {
     background-color: black;
    
 }
@@ -51,7 +51,7 @@ text-align: center;
 
 
 @media screen and (max-width: 1000px) {
-    .navbar a {
+    .navbarr a {
         float: none;
         display: block;
         font-size: 2.5em;
@@ -184,8 +184,8 @@ animation: anii ease-in 6s infinite forwards alternate;
 .bub2{
     background-color: aliceblue;
     border-radius: 50%;
-    width: 10em;
-    height: 10em; 
+    width: 3em;
+    height: 3em; 
     opacity: 30%;
 position:absolute;
 margin-left: 10em;
@@ -221,8 +221,8 @@ animation: anii ease-in 5s infinite forwards alternate;
 .bub5{
     background-color: aliceblue;
     border-radius: 50%;
-    width: 6em;
-    height: 6em; 
+    width: 4em;
+    height: 4em; 
     opacity: 30%;
 position:absolute;
 margin-left: 10em;
