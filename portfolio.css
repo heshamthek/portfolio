@@ -54,7 +54,7 @@ text-align: center;
     .navbar a {
         float: none;
         display: block;
-        font-size: 7PX;
+        font-size: 1em;
         padding: 6PX;
        
     }
@@ -160,4 +160,8 @@ text-align: center;
 
 }
 
+    .ccna{
+        border-radius: 20%;
+        width: 6%;
     
+    }
