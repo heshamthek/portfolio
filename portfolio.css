@@ -6,12 +6,7 @@ body{
 }
 
 
-.navbar {
-    width: 100vw;
-    background-color: #340101;
-    overflow: auto;
-    position: fixed;
-}
+
 
 
 .navbar a {
@@ -50,12 +45,13 @@ text-align: center;
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .navbar a {
         float: none;
         display: block;
         font-size: 1em;
         padding: 6PX;
+        
        
     }
 
