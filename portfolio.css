@@ -8,10 +8,10 @@ body{
 
 .navbarr {
     
-    width: 100vw;
+    width: 99vw;
     background-color: #340101;
     overflow: auto;
-    position: fixed;
+    
     
 }
 
@@ -67,7 +67,7 @@ text-align: center;
 .logo{
     float: none;
         display: block;
-        
+        margin-right: 2em;
         padding: 6PX;
 }
 
@@ -95,7 +95,7 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: center;
     padding: 1em;
-    padding-top: 12em;
+   
   
     }
     
@@ -129,10 +129,7 @@ text-align: center;
     font-size: 1.2em;
 
 }
-.face{
-    width: 1em;
-    background-color: white;
-}
+
 .age {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
@@ -288,14 +285,8 @@ animation: anii ease-in 4s infinite forwards alternate;
    padding: 2em;
    height: 16em;
    }
-   .html:hover{
-    transform: translateX(4px);
-
-   }
-   .sss:hover{
-    transform: translateX(4px);
-
-   }
+   
+   
    .skkk{
     display: flex;
     flex-wrap: wrap;
@@ -373,30 +364,35 @@ animation: anii ease-in 4s infinite forwards alternate;
         border-radius: 100%;
     }
 
-    .proo8{grid-area:2/1/2/1 ;
-           margin-left: 4em; 
-           width: 6em;
-           padding-left: 8px;
-           height: 2.5em;
-           border-radius: 10px;
-           background-color: #fb00ff;
-           box-shadow: #8b034e 1px 2px 2px;
-}
-.proo8:hover{
-    transform: translateY(2px);
-    background-color: #00f20c;
-}
+    
 .figmaa{
+   
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+.p{
+    width: 9em;
+ margin-left: 4em;
+ margin-top: 3em;
+ border-radius: 20px;
+
+}
+.face{
+    width: 1.5em;
+    border-radius: 5px;
+    background-color: white;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 7em;
+  
+    align-items: center;
+    gap: 4em; 
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-
-}
-.figmaa:hover{
-    transform: translateY(2px);
-
-
-}
-.z{
-    z-index: -1;
+    margin-left: 5em;
 }
