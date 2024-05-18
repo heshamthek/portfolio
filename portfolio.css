@@ -390,6 +390,7 @@ animation: anii ease-in 4s infinite forwards alternate;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+
 }
 .figmaa:hover{
     transform: translateY(2px);
