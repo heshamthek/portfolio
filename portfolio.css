@@ -7,6 +7,7 @@ body{
 
 
 .navbarr {
+    
     width: 100vw;
     background-color: #340101;
     overflow: auto;
@@ -16,6 +17,7 @@ body{
 
 
 .navbarr a {
+    margin-right: 1em;
     float: right;
     text-align: center;
     padding: 12px;
@@ -23,20 +25,20 @@ body{
     text-decoration: none;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.navbar a:hover {
    
-    background: linear-gradient(90deg, rgb(107, 6, 97) 17%, rgb(52, 1, 44) 50%, rgba(6,22,107,1) 100%);  
-     transform: translateY(-2px);
+    
 }
 
 
-.ss {
-    background-color: black;
+.y:hover {
+   border-radius: 10px;
    
+    background: linear-gradient(90deg, rgb(56, 5, 51) 17%, rgb(73, 7, 63) 50%, rgb(107, 6, 6) 100%);  
+     transform: translateY(2px);
 }
+
+
+
 .logo{
     font-family: "Jacquard 12", system-ui;
 color: aliceblue;
@@ -47,6 +49,7 @@ padding-top: 0.2em;
 float: left;
 font-size: 2em;
 text-align: center;
+
 
 }
 
@@ -119,9 +122,7 @@ text-align: center;
     margin-top: 3em;
      
 }
-.name:hover{
-    transform: translateY(-5px);
-}
+
 .undername{
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
@@ -140,9 +141,7 @@ text-align: center;
     font-size: 1.5em;
 }
 
-.age:hover{
-    transform: translateY(-5px);
-}
+
 
 .art{
     color: aliceblue;
@@ -289,6 +288,14 @@ animation: anii ease-in 4s infinite forwards alternate;
    padding: 2em;
    height: 16em;
    }
+   .html:hover{
+    transform: translateX(4px);
+
+   }
+   .sss:hover{
+    transform: translateX(4px);
+
+   }
    .skkk{
     display: flex;
     flex-wrap: wrap;
@@ -303,12 +310,16 @@ animation: anii ease-in 4s infinite forwards alternate;
 
 .my-proj{
     color: aliceblue; text-align: center; padding-top: 1em;
+    text-decoration: none;
     
 }
+
+
+
    .parentt {
     display: grid;
     grid-template-columns: repeat(7, 0.5fr);
-    grid-template-rows: repeat(9, 0.5fr);
+    grid-template-rows: repeat(6, 0.5fr);
     grid-column-gap: 1em;
     grid-row-gap: 2em;
     padding-top: 4em;
@@ -323,14 +334,7 @@ animation: anii ease-in 4s infinite forwards alternate;
         width: 300%;
         border: #588df8 6px solid;   
     }
-    .h41{
-        text-align: center;
-        color: aliceblue;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-left: 2em;
-       
-        
-    }
+    
     .proo2 { grid-area: 1 / 5 / 3 / 6; }
     .faccc{
         border-radius: 20px;
@@ -355,11 +359,43 @@ animation: anii ease-in 4s infinite forwards alternate;
         border: #588df8 6px solid;  
      
     }
-    .proo5 { grid-area: 5 / 2 / 7 / 3; }
-    .proo6 { grid-area: 3 / 5 / 5 / 7; }
-    .proo7 { grid-area: 5 / 1 / 7 / 3; }
+    .proo5 { grid-area: 5 / 2 / 7 / 3;   padding-top: 5em;}
+    .reciii{
+        border-radius: 20px;
+        width: 250%;
+        border: #00f20c 6px solid;  
+    }
+    .proo6 { grid-area: 5 / 5 / 7/ 6; }
+    .proo7 { grid-area: 6 / 5 / 7 / 6; }
     
     .maill{
         width: 2em;
         border-radius: 100%;
     }
+
+    .proo8{grid-area:2/1/2/1 ;
+           margin-left: 4em; 
+           width: 6em;
+           padding-left: 8px;
+           height: 2.5em;
+           border-radius: 10px;
+           background-color: #fb00ff;
+           box-shadow: #8b034e 1px 2px 2px;
+}
+.proo8:hover{
+    transform: translateY(2px);
+    background-color: #00f20c;
+}
+.figmaa{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.figmaa:hover{
+    transform: translateY(2px);
+
+
+}
+.z{
+    z-index: -1;
+}
