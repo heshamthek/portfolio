@@ -92,7 +92,7 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: center;
     padding: 1em;
-    padding-top: 9em;
+    padding-top: 12em;
   
     }
     
@@ -179,7 +179,7 @@ text-align: center;
     opacity: 30%;
 position:absolute;
 margin-left: 10em;
-z-index: -2;
+z-index: -1;
 animation: anii ease-in 6s infinite forwards alternate;
 
 }
@@ -297,3 +297,65 @@ animation: anii ease-in 4s infinite forwards alternate;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
    }
+
+
+
+
+.my-proj{
+    color: aliceblue; text-align: center; padding-top: 1em;
+    
+}
+   .parentt {
+    display: grid;
+    grid-template-columns: repeat(7, 0.5fr);
+    grid-template-rows: repeat(9, 0.5fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+    padding-top: 4em;
+   
+   
+    }
+    
+    .proo1 { grid-area: 1 / 2 / 3 / 3;  ;
+     padding-top: 7em; }
+    .ytmc{
+        border-radius: 20px;
+        width: 300%;
+        border: #588df8 6px solid;   
+    }
+    .h41{
+        text-align: center;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 2em;
+       
+        
+    }
+    .proo2 { grid-area: 1 / 5 / 3 / 6; }
+    .faccc{
+        border-radius: 20px;
+        width: 250%;
+        border: #ff0a0e 6px solid;
+        
+    }
+    .proo3 { grid-area: 3 / 2 / 5 / 3;  padding-top: 5em;} 
+.linnn{
+    border-radius: 20px;
+        width: 250%;
+        border: #ff0a0e 6px solid;
+}
+
+
+
+    .proo4 { grid-area: 3 / 5 / 5 / 6;  }
+
+    .nettt{
+        border-radius: 20px;
+        width: 200%;
+        border: #588df8 6px solid;  
+     
+    }
+    .proo5 { grid-area: 5 / 2 / 7 / 3; }
+    .proo6 { grid-area: 3 / 5 / 5 / 7; }
+    .proo7 { grid-area: 5 / 1 / 7 / 3; }
+    
