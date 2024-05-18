@@ -394,5 +394,29 @@ footer{
     gap: 4em; 
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+   
     margin-left: 5em;
+}
+
+.homeee{
+   
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.HIRE{
+    color: #f20000;
+    
+    text-decoration: none;
+
+}
+.HIREE{background-color: rgb(7, 238, 255);
+    width: 7em;
+    padding-left: 1.5em;
+    height: 2em;
+    border-radius: 1em;
+    padding-top: 0.3em;
+
+}
+.HIREE:hover{
+    transform: translateX(4PX);
 }
