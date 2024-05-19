@@ -330,7 +330,7 @@ filter: blur(1rem);
     }
     
     .proo1 { grid-area: 1 / 2 / 3 / 3;  ;
-     padding-top: 7em; }
+     padding-top:7em; }
     .ytmc{
         border-radius: 20px;
         width: 300%;
@@ -377,10 +377,7 @@ filter: blur(1rem);
 
     
 .figmaa{
-   
     font-family: Arial, Helvetica, sans-serif;
-   
-
 }
 
 .p{
