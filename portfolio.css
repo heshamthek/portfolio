@@ -1,11 +1,19 @@
 
 body{
-    background-color:#090D22 ;
+   background-image: url(imges/dark-blue-background-with-the-diamond-pattern-template-sr06012408.jpg);
     margin: 0%;
 
 }
 
+.main{
+    
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13px);
+-webkit-backdrop-filter: blur(13px);
 
+}
 .navbarr {
     
     width: 99vw;
@@ -25,7 +33,7 @@ body{
     text-decoration: none;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-   
+ 
     
 }
 
@@ -35,6 +43,7 @@ body{
    
     background: linear-gradient(90deg, rgb(56, 5, 51) 17%, rgb(73, 7, 63) 50%, rgb(107, 6, 6) 100%);  
      transform: translateY(2px);
+     
 }
 
 
@@ -168,7 +177,7 @@ text-align: center;
     }
     
 .bub1{
-    background-color: aliceblue;
+    background: rgb(155, 5, 43) ; 
     border-radius: 50%;
     width: 10em;
     height: 10em; 
@@ -177,11 +186,12 @@ position:absolute;
 margin-left: 10em;
 z-index: -1;
 animation: anii ease-in 6s infinite forwards alternate;
+filter: blur(1rem);
 
 }
 
 .bub2{
-    background-color: aliceblue;
+    background:  rgb(141, 6, 40);
     border-radius: 50%;
     width: 3em;
     height: 3em; 
@@ -190,10 +200,11 @@ position:absolute;
 margin-left: 10em;
 z-index: -2;
 animation: anii ease-in 8s infinite forwards alternate;
+filter: blur(1rem);
 
 }
 .bub3{
-    background-color: aliceblue;
+    background:  rgb(131, 4, 36);
     border-radius: 50%;
     width: 12em;
     height: 12em; 
@@ -202,11 +213,11 @@ position:absolute;
 margin-left: 10em;
 z-index: -2;
 animation: anii ease-in 10s infinite forwards alternate;
-
+filter: blur(1rem);
 }
 
 .bub4{
-    background-color: aliceblue;
+    background:  rgb(80, 178, 243);
     border-radius: 50%;
     width: 4em;
     height: 4em; 
@@ -215,10 +226,10 @@ position:absolute;
 margin-left: 10em;
 z-index: -2;
 animation: anii ease-in 5s infinite forwards alternate;
-
+filter: blur(1rem);
 }
 .bub5{
-    background-color: aliceblue;
+    background: rgb(106, 56, 245);
     border-radius: 50%;
     width: 4em;
     height: 4em; 
@@ -227,10 +238,10 @@ position:absolute;
 margin-left: 10em;
 z-index: -2;
 animation: anii ease-in 12s infinite forwards alternate;
-
+filter: blur(1rem);
 }
 .bub6{
-    background-color: aliceblue;
+    background: rgb(101, 240, 46);
     border-radius: 50%;
     width: 5em;
     height: 5em; 
@@ -239,7 +250,7 @@ position:absolute;
 
 z-index: -2;
 animation: anii ease-in 4s infinite forwards alternate;
-
+filter: blur(1rem);
 }
 
 @keyframes anii {
@@ -394,7 +405,6 @@ footer{
     gap: 4em; 
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-   
     margin-left: 5em;
 }
 
